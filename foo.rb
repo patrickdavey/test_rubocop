@@ -9,4 +9,8 @@ class Foo
         c: "d"
     }
   end
+
+  def line
+  "not indendted"
+  end
 end
