@@ -5,5 +5,8 @@ class Foo
 
   def another
     'violation'
+    { a: "b",
+        c: "d"
+    }
   end
 end
