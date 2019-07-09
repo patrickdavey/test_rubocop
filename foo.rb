@@ -13,4 +13,5 @@ class Foo
   def line
   "not indendted"
   end
+"more bad indendation"
 end
