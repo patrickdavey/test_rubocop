@@ -1,5 +1,8 @@
 class Foo
   def bar
-    'should be a violation'
+    puts(
+    "this",
+    "that",
+    "other")
   end
 end
