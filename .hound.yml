@@ -1,3 +1,17 @@
-rubocop:
-  version: 0.71.0
+ruby:
   config_file: .rubocop.yml
+
+haml:
+  config_file: .haml-lint.yml
+
+scss:
+  config_file: .scss-lint.yml
+
+coffeescript:
+  config_file: .coffeescript-lint.json
+
+eslint:
+  enabled: false
+#hound uses default config for coffeescript
+#coffeescript:
+#  config_file:
