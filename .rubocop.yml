@@ -1,6 +1,6 @@
 AllCops:
-  TargetRubyVersion: 2.2
-  TargetRailsVersion: 3.2
+  TargetRubyVersion: 2.6
+  TargetRailsVersion: 5.0
   Exclude:
     - 'db/**/*'
     - 'config/**/*'
@@ -24,7 +24,7 @@ Style/SafeNavigation:
 Layout/IndentHeredoc:
   Enabled: false
 
-Layout/FirstParameterIndentation:
+Layout/IndentFirstArgument:
   EnforcedStyle: consistent
 
 Rails/DynamicFindBy:
@@ -49,6 +49,7 @@ Metrics/LineLength:
   Exclude:
     - app/views/**/*
     - spec/**/*
+    - 'app/views/**/*.jbuilder'
   Max: 120
 
 Metrics/BlockLength:
@@ -56,6 +57,7 @@ Metrics/BlockLength:
      - 'Rakefile'
      - '**/*.rake'
      - 'spec/**/*.rb'
+     - 'app/views/**/*.jbuilder'
 
 Lint/AmbiguousBlockAssociation:
   Exclude:
